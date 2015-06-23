@@ -219,7 +219,7 @@ def repl():
         except KeyboardInterrupt:
             print("\nKeyboardInterrupt")
 
-def test(code = [2, 3, "+", 5, "*", "println"]):
+def test(code = [2, 3, "+", 6, "*", "println"]):
     print("Code before optimization: %s" % str(code))
     optimized = constant_fold(code)
     print("Code after optimization: %s" % str(optimized))

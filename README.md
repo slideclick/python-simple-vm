@@ -13,6 +13,12 @@ To run:
     25
     > ^D
 
+OR:
+        python -i vm.py
+        exit
+        Machine([2, 3, "+", 4, "*", "println"]).run() 
+    
+    
 To test:
 
     $ python vm.py test
